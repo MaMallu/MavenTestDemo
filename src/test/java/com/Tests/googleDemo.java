@@ -18,7 +18,7 @@ public class googleDemo
 		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
-		Assert.assertTrue(driver.getTitle().contains("Google"),"Title did not match");
+		Assert.assertTrue(driver.getTitle().contains("Gogle"),"Title did not match");
 		driver.close();
 	}
 }
